@@ -405,3 +405,18 @@ nano dove-siamo.html
 git stat 
 git status  
 git commit -am "Conflitto risolto su dove-siamo"
+cp ~/.bash_history ~/ITIS-Meucci
+git add .bash_history 
+git status 
+git commit -m "Aggiunto .bash_history"
+git remote add origin https://github.com/davidemodi/verifica-git.git
+git push origin master 
+git push origin master 
+cd ~/Desktop/
+git clone https://github.com/davidemodi/verifica-git
+cd verifica-git/
+cd ls
+ls
+nano dove-siamo.html 
+git commit -am "aggiunta Telefono in dove-siamo"
+git push origin master
